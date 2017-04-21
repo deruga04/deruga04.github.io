@@ -5,3 +5,7 @@ p #proc {
 p #cons {
 	font-size: 48px;
 }
+
+ul{
+	list-style-position: inside;
+}
