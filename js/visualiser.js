@@ -13,8 +13,7 @@ window.onload = function(){
 		requestAnimationFrame(renderFrame);
 		analyser.getByteFrequencyData(freqData);
 	}
-	console.log(audio);
 	audio.play();
-	console.log("playing");
-	//renderFrame();
+	renderFrame();
+	console.log(freqData)
 }
